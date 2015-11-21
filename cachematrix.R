@@ -4,7 +4,7 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-        # Cache the inverse of the matrix 'x' if computed already
+        ## Cache the inverse of the matrix 'x' if computed already
         inv <- NULL
         set <- function(y) {
                 x <<- y
